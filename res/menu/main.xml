@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/item1"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|withText"
+        android:title="Type">
+        <menu >
+            <item android:id="@+id/subitem1"
+                  android:title="Satellite"/>
+            <item android:id="@+id/subitem2"
+                  android:title="Map"
+                />
+            <item android:id="@+id/subitem3"
+                  android:title="Hybrid"/>
+        </menu>
+        </item>
+</menu>
